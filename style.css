@@ -2,6 +2,15 @@
     margin:0;
 }
 #contato{
+    border-top:2px solid lightgray;
     height: 25%;
     background-color:#F0F0F0;
+}
+#foot{
+    border-top:2px solid lightgray;
+}
+.container{
+    width:20%;
+    display:inline-block;
+    text-align:center;
 }
