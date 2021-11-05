@@ -24,13 +24,14 @@ a{
 
 /*Identificação*/
 #identificacao{
-    height:400px;
+    height:350px;
     width:100%;
-    background-color:#BC732A;
+    border-bottom:1px solid lightgray;
 }
 
 
 #i1,#i2{
+    background-color:#C47F35;
     display:block;
     width:35%;
     font-size:30pt;
@@ -49,6 +50,21 @@ a{
 }
 #i1{
     float:left;
+}
+
+
+/*Lançamentos*/
+#lancamentos{
+    height:1000px;
+    background-color: #F0F0F0;;
+    border:1px solid lightgray;
+
+}
+#lanca{
+    text-align:center;
+    font-size:35pt;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /*Barra de contato*/
