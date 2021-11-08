@@ -68,9 +68,11 @@ a{
 }
 
 #l1{
-    border:1px solid black;
-    width:40%;
-    margin-left:10px;
+    border:2px solid #BC732A;
+    width:90%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
     text-align:center;
 }
 #galeria1{
@@ -88,10 +90,23 @@ a{
     opacity:0.5;
 }
 #l1dir, #l1esq {
+    margin:0;
+    border:1px solid black;
     width:40%;
-    display:inline block;
-}
+    display: inline-block;
 
+}
+/*Hide details triangle*/
+details > summary {
+    list-style: none;
+  }
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+#l1dir p{
+    font-size:18pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 /*Barra de contato*/
 #contato{
     border-top:2px solid lightgray;
