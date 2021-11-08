@@ -87,7 +87,10 @@ a{
 #galeria1 img:hover{
     opacity:0.5;
 }
-
+#l1dir, #l1esq {
+    width:40%;
+    display:inline block;
+}
 
 /*Barra de contato*/
 #contato{
