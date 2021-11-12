@@ -79,7 +79,7 @@ a{
 #galeria1{
     width:90%;
     display:block;
-    margin:10px 80px;
+    margin:10px 60px;
 }
 #galeria1 img{
     padding:12px;
@@ -126,10 +126,13 @@ details > summary {
     display: none;
   }
 #l1dir li{
+    font-size:13pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul p{
     font-size:16pt;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 /*Slider*/
 .slider{
 	margin:50px auto;
