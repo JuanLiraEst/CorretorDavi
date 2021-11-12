@@ -77,15 +77,17 @@ a{
     border-radius:20px;
 }
 #galeria1{
-    width:90%;
+    border:1px solid black;
+    width:auto;
     display:block;
-    margin:10px 60px;
+    margin:10px;
 }
 #galeria1 img{
     padding:12px;
     margin-left:auto;
     margin-right:auto;
     border-radius: 20px;
+    width:10%;
 }
 #galeria1 img:hover{
     opacity:0.5;
