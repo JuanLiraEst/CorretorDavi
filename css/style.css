@@ -73,7 +73,6 @@ a{
     display:block;
     margin-left:auto;
     margin-right:auto;
-    text-align:center;
 }
 #galeria1{
     width:100%;
@@ -90,11 +89,24 @@ a{
     opacity:0.5;
 }
 #l1dir, #l1esq {
-    margin:0;
+    margin:3%;
     border:1px solid black;
     width:40%;
     display: inline-block;
 
+}
+#l1dir{
+    float:right;
+}
+#botao{
+    cursor:pointer;
+    width:100px;
+    height:60px;
+    background-color:#BC732A;
+    color:white;
+    text-align:center;
+    font-size:18pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /*Hide details triangle*/
 details > summary {
@@ -103,7 +115,7 @@ details > summary {
   details > summary::-webkit-details-marker {
     display: none;
   }
-#l1dir p{
+#l1dir li{
     font-size:18pt;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
