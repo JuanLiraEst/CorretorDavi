@@ -21,3 +21,27 @@ function setImg(){
 	return slider_img.setAttribute('src', "imgs1/"+images[i]);
 	
 }
+
+
+var slider_img2 = document.querySelector('.slider2-img');
+var images2 = ['1.jpeg', '2.jpeg', '3.jpeg', '4.jpeg', '5.jpeg', 
+'6.jpeg', '7.jpeg', '8.jpeg', '9.jpeg', '10.jpeg', '11.jpeg', '12.jpeg',
+ '13.jpeg', '14.jpeg', '15.jpeg', '16.jpeg', '17.jpeg', '18.jpeg'];
+var j = 0;
+
+function prev2(){
+	if(j <= 0) j = images2.length;	
+	j--;
+	return setImg2();			 
+}
+
+function next2(){
+	if(j >= images2.length-1) j = -1;
+	j++;
+	return setImg2();			 
+}
+
+function setImg2(){
+	return slider_img2.setAttribute('src', "imgs2/"+images2[j]);
+	
+}

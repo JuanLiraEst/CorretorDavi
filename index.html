@@ -24,25 +24,23 @@
         <p id="i2">Assessoria financeira e especialização na planta</p>
     </div>
     <div id="lancamentos">
-        <h2 id="lanca">Lançamentos</h2>
+        <h2 id="titulo_lanca">Lançamentos</h2>
 
-        
-        <details id="det1">
+       <!--LANÇAMENTO 1--> 
+        <details class="detalhes" id="det1"> <!--Classe pra manter a config e id só para cada um ter sua cor específica-->
             <summary>
-                <div id="l1">
-                    <div id="l1esq"> <img src="imgs1/1.jpg" width="100%"></div>
-                    <div id="l1dir">
-                        <ul><p id="titulo1"> Sobrado com 3 quartos - Bairro Paulicéia, SBC</p><br>
+                <div class="lançamento" id="l1">
+                    <div class="foto_esq"> <img src="imgs1/1.jpg" width="100%"></div>
+                    <div class="texto_dir">
+                        <ul><p class="titulo_do_lanca"> Sobrado com 3 quartos - Bairro Paulicéia, SBC</p><br>
                             <li>245 metros quadrados</li>
                             <li>O terreno tem 125m² 5x25</li>                           
                         </ul>
-
-                        <div id="botao">Ver Mais</div>
-
+                        <div class="botao">Ver Mais</div>
                     </div> 
                 </div>
             </summary>
-            <ul id="moredetail">
+            <ul class="moredetail">
                 <li>Churrasqueira</li>
                 <li>Sótão</li>                            
                 <li>3 quartos (1 suíte com sacada)</li>
@@ -66,7 +64,7 @@
                     <button class="btn" onclick="next()">Próxima</button>
                 </div>
             </div>
-            <div id="galeria1">
+            <div class="galeria">
                 <a href="imgs1/2.jpg" width="100%" ><img src="imgs1/2.jpg" width="200"></a> 
                 <a href="imgs1/3.jpg" width="100%" ><img src="imgs1/3.jpg" width="200"></a> 
                 <a href="imgs1/4.jpg" width="100%" ><img src="imgs1/4.jpg" width="200"></a> 
@@ -91,7 +89,66 @@
                 <a href="imgs1/23.jpg" width="100%" ><img src="imgs1/23.jpg" width="200"></a> 
                 <a href="imgs1/1.jpg" width="100%" ><img src="imgs1/1.jpg" width="240"></a>             </div>
         </details>
-    </div>
+     <br><br><br><br>
+
+    <!--LANÇAMENTO 2-->
+    <details class="detalhes" id="det2">
+        <summary>
+            <div class="lançamento" id="l2">
+                <div class="foto_esq"> <img src="imgs2/1.jpeg" width="100%"></div>
+                <div class="texto_dir">
+                    <ul><p class="titulo_do_lanca"> Apartamento 56M - Avenida Dom Jaime De Barros Câmara, Planalto - SBC</p><br>
+                        <li>2 dormitórios sendo 1 suíte</li>
+                        <li>Ap 104 torre 2</li>                           
+                    </ul>
+
+                    <div class="botao">Ver Mais</div>
+
+                </div> 
+            </div>
+        </summary>
+        <ul class="moredetail">
+            <li>Em um dormitorio fica o box com baú</li>
+            <li>Quarto do meio fica armario planejado, cômoda, cama solteiro com auxiliar.</li>                            
+            <li>Sala fica sofá, rack em espelho na frente, mesa 4 cadeiras.</li>
+            <li>Cozinha com forno Eletrolux, cooktop Brastemp Ative, geladeira Brastemp Ative Inox. </li>
+            <li>Lavanderia com maquina Samsung.</li>
+            <li>Valor de condomínio: R$280,00</li>
+            <li>Iptu - R$92,00 por mês</li>
+
+        </ul>
+
+        <div class="slider">
+            <div class="img-box">
+                <img src="imgs2/1.jpeg" class="slider2-img">
+            </div>
+            <div class="img-box">
+                <button class="btn" onclick="prev2()">Anterior</button>
+                <button class="btn" onclick="next2()">Próxima</button>
+            </div>
+        </div>
+        <div class="galeria">
+            <a href="imgs2/2.jpeg" width="100%" ><img src="imgs2/2.jpeg" width="200"></a> 
+            <a href="imgs2/3.jpeg" width="100%" ><img src="imgs2/3.jpeg" width="200"></a> 
+            <a href="imgs2/4.jpeg" width="100%" ><img src="imgs2/4.jpeg" width="200"></a> 
+            <a href="imgs2/5.jpeg" width="100%" ><img src="imgs2/5.jpeg" width="200"></a> 
+            <a href="imgs2/6.jpeg" width="100%" ><img src="imgs2/6.jpeg" width="200"></a> 
+            <a href="imgs2/7.jpeg" width="100%" ><img src="imgs2/7.jpeg" width="200"></a> 
+            <a href="imgs2/8.jpeg" width="100%" ><img src="imgs2/8.jpeg" width="200"></a> 
+            <a href="imgs2/9.jpeg" width="100%" ><img src="imgs2/9.jpeg" width="200"></a> 
+            <a href="imgs2/10.jpeg" width="100%" ><img src="imgs2/10.jpeg" width="200"></a> 
+            <a href="imgs2/11.jpeg" width="100%" ><img src="imgs2/11.jpeg" width="200"></a> 
+            <a href="imgs2/12.jpeg" width="100%" ><img src="imgs2/12.jpeg" width="200"></a> 
+            <a href="imgs2/13.jpeg" width="100%" ><img src="imgs2/13.jpeg" width="200"></a> 
+            <a href="imgs2/14.jpeg" width="100%" ><img src="imgs2/14.jpeg" width="200"></a> 
+            <a href="imgs2/15.jpeg" width="100%" ><img src="imgs2/15.jpeg" width="200"></a> 
+            <a href="imgs2/16.jpeg" width="100%" ><img src="imgs2/16.jpeg" width="200"></a> 
+            <a href="imgs2/17.jpeg" width="100%" ><img src="imgs2/17.jpeg" width="200"></a> 
+            <a href="imgs2/18.jpeg" width="100%" ><img src="imgs2/18.jpeg" width="200"></a> 
+            </div>
+    </details>
+</div> <!--Fechando a div dos lançamentos-->
+</div>
     <br>
     <div id="foot"><p id="maisinfo">Mais informações? Entre em contato!</p></div>
     <div id="contato">
