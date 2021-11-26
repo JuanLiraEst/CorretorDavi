@@ -51,7 +51,53 @@ a{
 #i1{
     float:left;
 }
+/*PATTEO*/
+h3, h4{
+    text-align:center;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#patt1, #patt2{
+    width:48%;
+    display:inline-block;
+    margin:10px;
+    border:2px solid lightgray;
+    height:500px auto;
+}
+#patt2{
+    float:right;
+}
+.logo, .capa{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px;
+}
+.capa{
+    border-radius:20px;
 
+}
+#videos{
+    width:50%;
+    height:auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:  rgb(148, 103, 60);
+}
+#vid2{
+    float:right;
+}
+iframe{
+    padding:10px;
+}
+#botao_patteo{
+    background-color: white;
+    border: 2px solid lightgray;
+    color:black;
+    width:150px;
+    height:40px;
+}
 
 /*Lançamentos*/
 #lancamentos{ /*Div cinza ajustável*/
@@ -60,9 +106,9 @@ a{
     border:1px solid lightgray;
 
 }
-#titulo_lanca{
+.titulo_lanca{
     text-align:center;
-    font-size:35pt;
+    font-size:25pt;
     color:black;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -137,6 +183,11 @@ a{
 #det2{
     border:3px solid rgb(240, 195, 123);
 }
+/*MAPA*/
+.mapa{
+    display:block;
+    margin:auto;
+}
 
 /*FOTOS SOLTAS*/
 .galeria{
@@ -194,7 +245,23 @@ details > summary {
     width:40%;
     display:inline-block;
 }
-
+/*SLIDER DO PATTEO*/
+.img-box-pat img{
+    width:90%;
+    margin:auto;
+    display:block;
+    padding:10px;
+}
+.slider-pat{
+    width:60%;
+	margin:50px auto;
+    border:2px solid lightgray;
+}
+h5{
+    text-align:center;
+    font-size:25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 /*Barra de contato*/
 #contato{
     border-top:2px solid lightgray;

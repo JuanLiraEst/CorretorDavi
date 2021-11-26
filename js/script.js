@@ -45,3 +45,29 @@ function setImg2(){
 	return slider_img2.setAttribute('src', "imgs2/"+images2[j]);
 	
 }
+
+
+var slider_img_pat = document.querySelector('.slider3-img');
+var images_pat = ['2.JPG', '3.JPG', '4.JPG', '5.JPG', 
+'6.JPG', '7.JPG', '9.JPG', '10.JPG', '11.JPG', '12.JPG',
+ '13.JPG', '14.JPG',  '17.JPG', '18.JPG', '19.JPG', '20.JPG',
+  '22.JPG', '23.JPG', '24.JPG', '25.JPG', '26.JPG', '27.JPG'
+ , '28.JPG', '29.JPG', '30.JPG'];
+var k = 0;
+
+function prev3(){
+	if(k <= 0) k = images_pat.length; // Qnd for a primeira, vai pra ultima	
+	k--;
+	return setImg3();			 
+}
+
+function next3(){
+	if(k >= images_pat.length-1) k = -1; //Qnd for a ultima, volta pra primeira
+	k++;
+	return setImg3();			 
+}
+
+function setImg3(){
+	return slider_img_pat.setAttribute('src', "imgs3/"+images_pat[k]);
+	
+}
